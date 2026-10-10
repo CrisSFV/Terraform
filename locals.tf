@@ -1,7 +1,7 @@
 locals {
   resource_group_name = "rg-${var.project_name}-${var.environment}-${var.location}-001"
 
-  virtual_network_name = "vnet-${var.project_name}-${var.environment}-${var.location}-001"
+  virtual_network_name = "vnet-${title(var.project_name)}-${var.environment}-${var.location}-001"
 
   subnet_address_prefixes = {
     app       = "10.0.1.0/24"
