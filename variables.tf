@@ -24,6 +24,10 @@ variable "admin_ssh_public_key" {
   description = "Clave pública SSH para acceder a la VM a través de Azure Bastion."
   type        = string
   sensitive   = true
+  validation {
+    condition     = can(regex("^(ssh-(rsa|ed25519)|ecdsa-sha2-nistp(256|384|521)) [^ ]+ .+$", trimspace(var.admin_ssh_public_key))) && !strcontains(var.admin_ssh_public_key, "REPLACE_WITH")
+    error_message = "admin_ssh_public_key debe ser una clave pública OpenSSH válida, por ejemplo: ssh-ed25519 AAAA... usuario@equipo."
+  }
 }
 
 variable "postgres_admin_username" {
