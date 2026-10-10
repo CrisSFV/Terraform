@@ -1,0 +1,12 @@
+{
+  "name": "integradora-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Aplicación de validación para el App Service de la práctica Terraform.",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "20.x"
+  }
+}

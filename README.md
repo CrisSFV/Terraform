@@ -49,3 +49,14 @@ La cuenta de almacenamiento usa acceso público deshabilitado. PostgreSQL Flexib
 ## Evidencias
 
 El documento [evidencias-practica.docx](./evidencias-practica.docx) contiene el objetivo, la relación con el diagrama, el procedimiento, la evidencia de validación y espacios para incorporar capturas de `terraform plan`, `terraform apply`, Portal de Azure y outputs reales después de ejecutar la práctica en una suscripción.
+
+La carpeta `app/` contiene una aplicación Node.js mínima para publicar en el App Service. Terraform crea la infraestructura, pero no despliega automáticamente el código de aplicación.
+
+Para publicarla desde PowerShell:
+
+```powershell
+Compress-Archive -Path .\app\* -DestinationPath .\app.zip -Force
+az webapp deploy --resource-group rg-integradora-dev-mexicocentral-001 --name app-integradora-dev-7j7gse --src-path .\app.zip --type zip
+```
+
+Después se puede validar `https://app-integradora-dev-7j7gse.azurewebsites.net/health`.
