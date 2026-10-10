@@ -14,6 +14,60 @@ variable "vnet_address_space" {
   type        = list(string)
 }
 
+variable "admin_username" {
+  description = "Usuario administrador de la VM Linux."
+  type        = string
+  default     = "azureuser"
+}
+
+variable "admin_ssh_public_key" {
+  description = "Clave pública SSH para acceder a la VM a través de Azure Bastion."
+  type        = string
+  sensitive   = true
+}
+
+variable "postgres_admin_username" {
+  description = "Usuario administrador del servidor PostgreSQL."
+  type        = string
+  default     = "pgadmin"
+}
+
+variable "postgres_admin_password" {
+  description = "Contraseña del servidor PostgreSQL. Debe cumplir las reglas de Azure."
+  type        = string
+  sensitive   = true
+}
+
+variable "postgres_version" {
+  description = "Versión mayor de PostgreSQL Flexible Server."
+  type        = string
+  default     = "16"
+}
+
+variable "vm_size" {
+  description = "Tamaño de la VM Linux."
+  type        = string
+  default     = "Standard_B2ats_v2"
+}
+
+variable "storage_replication_type" {
+  description = "Tipo de replicación de la cuenta de almacenamiento."
+  type        = string
+  default     = "LRS"
+}
+
+variable "create_bastion" {
+  description = "Crea Azure Bastion para administración privada de la VM."
+  type        = bool
+  default     = true
+}
+
+variable "create_vm" {
+  description = "Crea la VM Linux y sus recursos de red."
+  type        = bool
+  default     = true
+}
+
 variable "tags" {
   description = "Etiquetas de los recursos"
   type        = map(string)
