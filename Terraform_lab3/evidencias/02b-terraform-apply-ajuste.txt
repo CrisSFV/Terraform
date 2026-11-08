@@ -1,0 +1,58 @@
+﻿azurerm_subnet.app: Destroying... [id=/subscriptions/8f447e01-3ab5-41d1-86cc-22f221fdde81/resourceGroups/rg-utvt-lab3-dev-ncus-001/providers/Microsoft.Network/virtualNetworks/vnet-utvt-lab3-dev-ncus-001/subnets/snet-utvt-lab3-app-dev-ncus-001]
+azurerm_service_plan.lab: Creating...
+azurerm_subnet.db: Modifying... [id=/subscriptions/8f447e01-3ab5-41d1-86cc-22f221fdde81/resourceGroups/rg-utvt-lab3-dev-ncus-001/providers/Microsoft.Network/virtualNetworks/vnet-utvt-lab3-dev-ncus-001/subnets/snet-utvt-lab3-db-dev-ncus-001]
+azurerm_subnet.app: Still destroying... [id=/subscriptions/8f447e01-3ab5-41d1-86cc-...ubnets/snet-utvt-lab3-app-dev-ncus-001, 00m10s elapsed]
+azurerm_service_plan.lab: Still creating... [00m10s elapsed]
+azurerm_subnet.db: Still modifying... [id=/subscriptions/8f447e01-3ab5-41d1-86cc-...subnets/snet-utvt-lab3-db-dev-ncus-001, 00m10s elapsed]
+azurerm_subnet.app: Destruction complete after 11s
+azurerm_virtual_network.app: Creating...
+azurerm_virtual_network.app: Creation complete after 4s [id=/subscriptions/8f447e01-3ab5-41d1-86cc-22f221fdde81/resourceGroups/rg-utvt-lab3-dev-ncus-001/providers/Microsoft.Network/virtualNetworks/vnet-utvt-lab3-app-dev-mxc-001]
+azurerm_private_dns_zone_virtual_network_link.postgres_app: Creating...
+azurerm_virtual_network_peering.lab_to_app: Creating...
+azurerm_virtual_network_peering.app_to_lab: Creating...
+azurerm_subnet.app: Creating...
+azurerm_subnet.db: Modifications complete after 16s [id=/subscriptions/8f447e01-3ab5-41d1-86cc-22f221fdde81/resourceGroups/rg-utvt-lab3-dev-ncus-001/providers/Microsoft.Network/virtualNetworks/vnet-utvt-lab3-dev-ncus-001/subnets/snet-utvt-lab3-db-dev-ncus-001]
+azurerm_service_plan.lab: Creation complete after 17s [id=/subscriptions/8f447e01-3ab5-41d1-86cc-22f221fdde81/resourceGroups/rg-utvt-lab3-dev-ncus-001/providers/Microsoft.Web/serverFarms/asp-utvt-lab3-dev-mxc-001]
+azurerm_subnet.app: Creation complete after 6s [id=/subscriptions/8f447e01-3ab5-41d1-86cc-22f221fdde81/resourceGroups/rg-utvt-lab3-dev-ncus-001/providers/Microsoft.Network/virtualNetworks/vnet-utvt-lab3-app-dev-mxc-001/subnets/snet-utvt-lab3-app-dev-mxc-001]
+azurerm_virtual_network_peering.app_to_lab: Still creating... [00m10s elapsed]
+azurerm_private_dns_zone_virtual_network_link.postgres_app: Still creating... [00m10s elapsed]
+azurerm_virtual_network_peering.lab_to_app: Still creating... [00m10s elapsed]
+azurerm_virtual_network_peering.app_to_lab: Still creating... [00m20s elapsed]
+azurerm_private_dns_zone_virtual_network_link.postgres_app: Still creating... [00m20s elapsed]
+azurerm_virtual_network_peering.lab_to_app: Still creating... [00m20s elapsed]
+azurerm_virtual_network_peering.lab_to_app: Creation complete after 27s [id=/subscriptions/8f447e01-3ab5-41d1-86cc-22f221fdde81/resourceGroups/rg-utvt-lab3-dev-ncus-001/providers/Microsoft.Network/virtualNetworks/vnet-utvt-lab3-dev-ncus-001/virtualNetworkPeerings/peer-lab-to-app]
+azurerm_virtual_network_peering.app_to_lab: Still creating... [00m30s elapsed]
+azurerm_private_dns_zone_virtual_network_link.postgres_app: Still creating... [00m30s elapsed]
+azurerm_private_dns_zone_virtual_network_link.postgres_app: Creation complete after 33s [id=/subscriptions/8f447e01-3ab5-41d1-86cc-22f221fdde81/resourceGroups/rg-utvt-lab3-dev-ncus-001/providers/Microsoft.Network/privateDnsZones/lab3.private.postgres.database.azure.com/virtualNetworkLinks/postgres-app-vnet-link]
+azurerm_virtual_network_peering.app_to_lab: Still creating... [00m40s elapsed]
+azurerm_virtual_network_peering.app_to_lab: Still creating... [00m50s elapsed]
+azurerm_virtual_network_peering.app_to_lab: Creation complete after 53s [id=/subscriptions/8f447e01-3ab5-41d1-86cc-22f221fdde81/resourceGroups/rg-utvt-lab3-dev-ncus-001/providers/Microsoft.Network/virtualNetworks/vnet-utvt-lab3-app-dev-mxc-001/virtualNetworkPeerings/peer-app-to-lab]
+azurerm_linux_web_app.api: Creating...
+azurerm_linux_web_app.api: Still creating... [00m11s elapsed]
+azurerm_linux_web_app.api: Still creating... [00m21s elapsed]
+azurerm_linux_web_app.api: Still creating... [00m31s elapsed]
+azurerm_linux_web_app.api: Still creating... [00m41s elapsed]
+azurerm_linux_web_app.api: Still creating... [00m51s elapsed]
+azurerm_linux_web_app.api: Still creating... [01m01s elapsed]
+azurerm_linux_web_app.api: Still creating... [01m11s elapsed]
+azurerm_linux_web_app.api: Creation complete after 1m14s [id=/subscriptions/8f447e01-3ab5-41d1-86cc-22f221fdde81/resourceGroups/rg-utvt-lab3-dev-ncus-001/providers/Microsoft.Web/sites/app-utvt-lab3-api-q19o2o]
+azurerm_role_assignment.key_vault_secrets_user: Creating...
+azurerm_role_assignment.key_vault_secrets_user: Still creating... [00m10s elapsed]
+azurerm_role_assignment.key_vault_secrets_user: Still creating... [00m20s elapsed]
+azurerm_role_assignment.key_vault_secrets_user: Still creating... [00m30s elapsed]
+azurerm_role_assignment.key_vault_secrets_user: Creation complete after 35s [id=/subscriptions/8f447e01-3ab5-41d1-86cc-22f221fdde81/resourceGroups/rg-utvt-lab3-dev-ncus-001/providers/Microsoft.KeyVault/vaults/kv-utvt-lab3-q19o2o/providers/Microsoft.Authorization/roleAssignments/1790fcb7-7a05-183b-afd2-28d6d5def4f3]
+
+Apply complete! Resources: 8 added, 1 changed, 1 destroyed.
+
+Outputs:
+
+key_vault_name = "kv-utvt-lab3-q19o2o"
+postgres_admin_password = <sensitive>
+postgres_admin_username = "adminpgdev"
+postgres_fqdn = "psql-utvt-lab3-dev-q19o2o.postgres.database.azure.com"
+resource_group_name = "rg-utvt-lab3-dev-ncus-001"
+vm_admin_password = <sensitive>
+vm_admin_username = "azureadmin"
+vm_name = "vm-utvt-lab3-dev-ncus-001"
+web_app_name = "app-utvt-lab3-api-q19o2o"
+web_app_url = "https://app-utvt-lab3-api-q19o2o.azurewebsites.net"

@@ -1,0 +1,257 @@
+﻿random_string.suffix: Refreshing state... [id=q19o2o]
+random_password.postgres_admin: Refreshing state... [id=none]
+random_password.vm_admin: Refreshing state... [id=none]
+data.azurerm_client_config.current: Reading...
+azurerm_resource_group.lab: Refreshing state... [id=/subscriptions/8f447e01-3ab5-41d1-86cc-22f221fdde81/resourceGroups/rg-utvt-lab3-dev-ncus-001]
+data.azurerm_client_config.current: Read complete after 0s [id=Y2xpZW50Q29uZmlncy9jbGllbnRJZD0wNGIwNzc5NS04ZGRiLTQ2MWEtYmJlZS0wMmY5ZTFiZjdiNDY7b2JqZWN0SWQ9YWE2ZmVmZDgtNmIwYy00ODJkLThlNmMtYWI2MTcyMjRhZWIxO3N1YnNjcmlwdGlvbklkPThmNDQ3ZTAxLTNhYjUtNDFkMS04NmNjLTIyZjIyMWZkZGU4MTt0ZW5hbnRJZD03NzNhZjY3ZC0wZDFlLTQwM2ItOTJjMi0zZGM5OTE5OTg5Njc=]
+azurerm_key_vault.lab: Refreshing state... [id=/subscriptions/8f447e01-3ab5-41d1-86cc-22f221fdde81/resourceGroups/rg-utvt-lab3-dev-ncus-001/providers/Microsoft.KeyVault/vaults/kv-utvt-lab3-q19o2o]
+azurerm_log_analytics_workspace.lab: Refreshing state... [id=/subscriptions/8f447e01-3ab5-41d1-86cc-22f221fdde81/resourceGroups/rg-utvt-lab3-dev-ncus-001/providers/Microsoft.OperationalInsights/workspaces/log-utvt-lab3-dev-ncus-001]
+azurerm_virtual_network.lab: Refreshing state... [id=/subscriptions/8f447e01-3ab5-41d1-86cc-22f221fdde81/resourceGroups/rg-utvt-lab3-dev-ncus-001/providers/Microsoft.Network/virtualNetworks/vnet-utvt-lab3-dev-ncus-001]
+azurerm_private_dns_zone.postgres: Refreshing state... [id=/subscriptions/8f447e01-3ab5-41d1-86cc-22f221fdde81/resourceGroups/rg-utvt-lab3-dev-ncus-001/providers/Microsoft.Network/privateDnsZones/lab3.private.postgres.database.azure.com]
+azurerm_network_security_group.vm: Refreshing state... [id=/subscriptions/8f447e01-3ab5-41d1-86cc-22f221fdde81/resourceGroups/rg-utvt-lab3-dev-ncus-001/providers/Microsoft.Network/networkSecurityGroups/nsg-utvt-lab3-vm-dev-ncus-001]
+azurerm_subnet.app: Refreshing state... [id=/subscriptions/8f447e01-3ab5-41d1-86cc-22f221fdde81/resourceGroups/rg-utvt-lab3-dev-ncus-001/providers/Microsoft.Network/virtualNetworks/vnet-utvt-lab3-dev-ncus-001/subnets/snet-utvt-lab3-app-dev-ncus-001]
+azurerm_subnet.db: Refreshing state... [id=/subscriptions/8f447e01-3ab5-41d1-86cc-22f221fdde81/resourceGroups/rg-utvt-lab3-dev-ncus-001/providers/Microsoft.Network/virtualNetworks/vnet-utvt-lab3-dev-ncus-001/subnets/snet-utvt-lab3-db-dev-ncus-001]
+azurerm_bastion_host.lab: Refreshing state... [id=/subscriptions/8f447e01-3ab5-41d1-86cc-22f221fdde81/resourceGroups/rg-utvt-lab3-dev-ncus-001/providers/Microsoft.Network/bastionHosts/bas-utvt-lab3-dev-ncus-001]
+azurerm_subnet.vm: Refreshing state... [id=/subscriptions/8f447e01-3ab5-41d1-86cc-22f221fdde81/resourceGroups/rg-utvt-lab3-dev-ncus-001/providers/Microsoft.Network/virtualNetworks/vnet-utvt-lab3-dev-ncus-001/subnets/snet-utvt-lab3-vm-dev-ncus-001]
+azurerm_subnet_network_security_group_association.vm: Refreshing state... [id=/subscriptions/8f447e01-3ab5-41d1-86cc-22f221fdde81/resourceGroups/rg-utvt-lab3-dev-ncus-001/providers/Microsoft.Network/virtualNetworks/vnet-utvt-lab3-dev-ncus-001/subnets/snet-utvt-lab3-vm-dev-ncus-001]
+azurerm_network_interface.vm: Refreshing state... [id=/subscriptions/8f447e01-3ab5-41d1-86cc-22f221fdde81/resourceGroups/rg-utvt-lab3-dev-ncus-001/providers/Microsoft.Network/networkInterfaces/nic-utvt-lab3-vm-dev-ncus-001]
+azurerm_windows_virtual_machine.vm: Refreshing state... [id=/subscriptions/8f447e01-3ab5-41d1-86cc-22f221fdde81/resourceGroups/rg-utvt-lab3-dev-ncus-001/providers/Microsoft.Compute/virtualMachines/vm-utvt-lab3-dev-ncus-001]
+azurerm_private_dns_zone_virtual_network_link.postgres: Refreshing state... [id=/subscriptions/8f447e01-3ab5-41d1-86cc-22f221fdde81/resourceGroups/rg-utvt-lab3-dev-ncus-001/providers/Microsoft.Network/privateDnsZones/lab3.private.postgres.database.azure.com/virtualNetworkLinks/postgres-vnet-link]
+azurerm_application_insights.lab: Refreshing state... [id=/subscriptions/8f447e01-3ab5-41d1-86cc-22f221fdde81/resourceGroups/rg-utvt-lab3-dev-ncus-001/providers/Microsoft.Insights/components/appi-utvt-lab3-dev-ncus-001]
+azurerm_postgresql_flexible_server.lab: Refreshing state... [id=/subscriptions/8f447e01-3ab5-41d1-86cc-22f221fdde81/resourceGroups/rg-utvt-lab3-dev-ncus-001/providers/Microsoft.DBforPostgreSQL/flexibleServers/psql-utvt-lab3-dev-q19o2o]
+azurerm_postgresql_flexible_server_database.school_management: Refreshing state... [id=/subscriptions/8f447e01-3ab5-41d1-86cc-22f221fdde81/resourceGroups/rg-utvt-lab3-dev-ncus-001/providers/Microsoft.DBforPostgreSQL/flexibleServers/psql-utvt-lab3-dev-q19o2o/databases/school_management]
+azurerm_role_assignment.key_vault_admin: Refreshing state... [id=/subscriptions/8f447e01-3ab5-41d1-86cc-22f221fdde81/resourceGroups/rg-utvt-lab3-dev-ncus-001/providers/Microsoft.KeyVault/vaults/kv-utvt-lab3-q19o2o/providers/Microsoft.Authorization/roleAssignments/528b6e80-ec85-1651-cbb7-f40448a51fdd]
+azurerm_dev_test_global_vm_shutdown_schedule.vm: Refreshing state... [id=/subscriptions/8f447e01-3ab5-41d1-86cc-22f221fdde81/resourceGroups/rg-utvt-lab3-dev-ncus-001/providers/Microsoft.DevTestLab/schedules/shutdown-computevm-vm-utvt-lab3-dev-ncus-001]
+time_sleep.rbac_propagation: Refreshing state... [id=2026-11-08T20:55:05Z]
+azurerm_key_vault_secret.postgres_password: Refreshing state... [id=https://kv-utvt-lab3-q19o2o.vault.azure.net/secrets/postgres-password/bf356adb5c3b4d01986937845d986b57]
+
+Terraform used the selected providers to generate the following execution
+plan. Resource actions are indicated with the following symbols:
+  + create
+  ~ update in-place
+-/+ destroy and then create replacement
+
+Terraform will perform the following actions:
+
+  # azurerm_linux_web_app.api will be created
+  + resource "azurerm_linux_web_app" "api" {
+      + app_settings                                   = {
+          + "APPLICATIONINSIGHTS_CONNECTION_STRING"      = (sensitive value)
+          + "ApplicationInsightsAgent_EXTENSION_VERSION" = "~3"
+          + "DB_HOST"                                    = "psql-utvt-lab3-dev-q19o2o.postgres.database.azure.com"
+          + "DB_NAME"                                    = "school_management"
+          + "DB_PASSWORD"                                = "@Microsoft.KeyVault(SecretUri=https://kv-utvt-lab3-q19o2o.vault.azure.net/secrets/postgres-password)"
+          + "DB_PORT"                                    = "5432"
+          + "DB_USERNAME"                                = "adminpgdev"
+          + "PORT"                                       = "8080"
+          + "SPRING_PROFILES_ACTIVE"                     = "azure"
+          + "XDT_MicrosoftApplicationInsights_Mode"      = "recommended"
+        }
+      + client_affinity_enabled                        = false
+      + client_certificate_enabled                     = false
+      + client_certificate_mode                        = "Required"
+      + custom_domain_verification_id                  = (sensitive value)
+      + default_hostname                               = (known after apply)
+      + enabled                                        = true
+      + ftp_publish_basic_authentication_enabled       = true
+      + hosting_environment_id                         = (known after apply)
+      + https_only                                     = true
+      + id                                             = (known after apply)
+      + key_vault_reference_identity_id                = (known after apply)
+      + kind                                           = (known after apply)
+      + location                                       = "mexicocentral"
+      + name                                           = "app-utvt-lab3-api-q19o2o"
+      + outbound_ip_address_list                       = (known after apply)
+      + outbound_ip_addresses                          = (known after apply)
+      + possible_outbound_ip_address_list              = (known after apply)
+      + possible_outbound_ip_addresses                 = (known after apply)
+      + public_network_access_enabled                  = true
+      + resource_group_name                            = "rg-utvt-lab3-dev-ncus-001"
+      + service_plan_id                                = (known after apply)
+      + site_credential                                = (sensitive value)
+      + tags                                           = {
+          + "environment" = "dev"
+          + "managed_by"  = "terraform"
+          + "project"     = "utvt-lab3"
+        }
+      + virtual_network_backup_restore_enabled         = false
+      + virtual_network_subnet_id                      = (known after apply)
+      + vnet_image_pull_enabled                        = false
+      + webdeploy_publish_basic_authentication_enabled = true
+      + zip_deploy_file                                = (known after apply)
+
+      + identity {
+          + principal_id = (known after apply)
+          + tenant_id    = (known after apply)
+          + type         = "SystemAssigned"
+        }
+
+      + site_config {
+          + always_on                               = true
+          + container_registry_use_managed_identity = false
+          + default_documents                       = (known after apply)
+          + detailed_error_logging_enabled          = (known after apply)
+          + ftps_state                              = "Disabled"
+          + http2_enabled                           = false
+          + ip_restriction_default_action           = "Allow"
+          + linux_fx_version                        = (known after apply)
+          + load_balancing_mode                     = "LeastRequests"
+          + local_mysql_enabled                     = false
+          + managed_pipeline_mode                   = "Integrated"
+          + minimum_tls_version                     = "1.2"
+          + remote_debugging_enabled                = false
+          + remote_debugging_version                = (known after apply)
+          + scm_ip_restriction_default_action       = "Allow"
+          + scm_minimum_tls_version                 = "1.2"
+          + scm_type                                = (known after apply)
+          + scm_use_main_ip_restriction             = false
+          + use_32_bit_worker                       = true
+          + vnet_route_all_enabled                  = true
+          + websockets_enabled                      = false
+          + worker_count                            = (known after apply)
+
+          + application_stack {
+              + java_server         = "JAVA"
+              + java_server_version = "25"
+              + java_version        = "25"
+            }
+        }
+    }
+
+  # azurerm_private_dns_zone_virtual_network_link.postgres_app will be created
+  + resource "azurerm_private_dns_zone_virtual_network_link" "postgres_app" {
+      + id                    = (known after apply)
+      + name                  = "postgres-app-vnet-link"
+      + private_dns_zone_name = "lab3.private.postgres.database.azure.com"
+      + registration_enabled  = false
+      + resolution_policy     = (known after apply)
+      + resource_group_name   = "rg-utvt-lab3-dev-ncus-001"
+      + tags                  = {
+          + "environment" = "dev"
+          + "managed_by"  = "terraform"
+          + "project"     = "utvt-lab3"
+        }
+      + virtual_network_id    = (known after apply)
+    }
+
+  # azurerm_role_assignment.key_vault_secrets_user will be created
+  + resource "azurerm_role_assignment" "key_vault_secrets_user" {
+      + condition_version                = (known after apply)
+      + id                               = (known after apply)
+      + name                             = (known after apply)
+      + principal_id                     = (known after apply)
+      + principal_type                   = (known after apply)
+      + role_definition_id               = (known after apply)
+      + role_definition_name             = "Key Vault Secrets User"
+      + scope                            = "/subscriptions/8f447e01-3ab5-41d1-86cc-22f221fdde81/resourceGroups/rg-utvt-lab3-dev-ncus-001/providers/Microsoft.KeyVault/vaults/kv-utvt-lab3-q19o2o"
+      + skip_service_principal_aad_check = (known after apply)
+    }
+
+  # azurerm_service_plan.lab will be created
+  + resource "azurerm_service_plan" "lab" {
+      + id                              = (known after apply)
+      + kind                            = (known after apply)
+      + location                        = "mexicocentral"
+      + maximum_elastic_worker_count    = (known after apply)
+      + name                            = "asp-utvt-lab3-dev-mxc-001"
+      + os_type                         = "Linux"
+      + per_site_scaling_enabled        = false
+      + premium_plan_auto_scale_enabled = false
+      + reserved                        = (known after apply)
+      + resource_group_name             = "rg-utvt-lab3-dev-ncus-001"
+      + sku_name                        = "B1"
+      + tags                            = {
+          + "environment" = "dev"
+          + "managed_by"  = "terraform"
+          + "project"     = "utvt-lab3"
+        }
+      + worker_count                    = (known after apply)
+    }
+
+  # azurerm_subnet.app must be replaced
+-/+ resource "azurerm_subnet" "app" {
+      ~ address_prefixes                              = [
+          ~ "10.20.1.0/24" -> "10.30.1.0/24",
+        ]
+      ~ id                                            = "/subscriptions/8f447e01-3ab5-41d1-86cc-22f221fdde81/resourceGroups/rg-utvt-lab3-dev-ncus-001/providers/Microsoft.Network/virtualNetworks/vnet-utvt-lab3-dev-ncus-001/subnets/snet-utvt-lab3-app-dev-ncus-001" -> (known after apply)
+      ~ name                                          = "snet-utvt-lab3-app-dev-ncus-001" -> "snet-utvt-lab3-app-dev-mxc-001" # forces replacement
+      - service_endpoint_policy_ids                   = [] -> null
+      - service_endpoints                             = [] -> null
+      ~ virtual_network_name                          = "vnet-utvt-lab3-dev-ncus-001" -> "vnet-utvt-lab3-app-dev-mxc-001" # forces replacement
+        # (5 unchanged attributes hidden)
+
+        # (1 unchanged block hidden)
+    }
+
+  # azurerm_subnet.db will be updated in-place
+  ~ resource "azurerm_subnet" "db" {
+        id                                            = "/subscriptions/8f447e01-3ab5-41d1-86cc-22f221fdde81/resourceGroups/rg-utvt-lab3-dev-ncus-001/providers/Microsoft.Network/virtualNetworks/vnet-utvt-lab3-dev-ncus-001/subnets/snet-utvt-lab3-db-dev-ncus-001"
+        name                                          = "snet-utvt-lab3-db-dev-ncus-001"
+      ~ service_endpoints                             = [
+          - "Microsoft.Storage",
+        ]
+        # (8 unchanged attributes hidden)
+
+        # (1 unchanged block hidden)
+    }
+
+  # azurerm_virtual_network.app will be created
+  + resource "azurerm_virtual_network" "app" {
+      + address_space                  = [
+          + "10.30.0.0/16",
+        ]
+      + dns_servers                    = (known after apply)
+      + guid                           = (known after apply)
+      + id                             = (known after apply)
+      + location                       = "mexicocentral"
+      + name                           = "vnet-utvt-lab3-app-dev-mxc-001"
+      + private_endpoint_vnet_policies = "Disabled"
+      + resource_group_name            = "rg-utvt-lab3-dev-ncus-001"
+      + subnet                         = (known after apply)
+      + tags                           = {
+          + "environment" = "dev"
+          + "managed_by"  = "terraform"
+          + "project"     = "utvt-lab3"
+        }
+    }
+
+  # azurerm_virtual_network_peering.app_to_lab will be created
+  + resource "azurerm_virtual_network_peering" "app_to_lab" {
+      + allow_forwarded_traffic                = false
+      + allow_gateway_transit                  = false
+      + allow_virtual_network_access           = true
+      + id                                     = (known after apply)
+      + name                                   = "peer-app-to-lab"
+      + peer_complete_virtual_networks_enabled = true
+      + remote_virtual_network_id              = "/subscriptions/8f447e01-3ab5-41d1-86cc-22f221fdde81/resourceGroups/rg-utvt-lab3-dev-ncus-001/providers/Microsoft.Network/virtualNetworks/vnet-utvt-lab3-dev-ncus-001"
+      + resource_group_name                    = "rg-utvt-lab3-dev-ncus-001"
+      + use_remote_gateways                    = false
+      + virtual_network_name                   = "vnet-utvt-lab3-app-dev-mxc-001"
+    }
+
+  # azurerm_virtual_network_peering.lab_to_app will be created
+  + resource "azurerm_virtual_network_peering" "lab_to_app" {
+      + allow_forwarded_traffic                = false
+      + allow_gateway_transit                  = false
+      + allow_virtual_network_access           = true
+      + id                                     = (known after apply)
+      + name                                   = "peer-lab-to-app"
+      + peer_complete_virtual_networks_enabled = true
+      + remote_virtual_network_id              = (known after apply)
+      + resource_group_name                    = "rg-utvt-lab3-dev-ncus-001"
+      + use_remote_gateways                    = false
+      + virtual_network_name                   = "vnet-utvt-lab3-dev-ncus-001"
+    }
+
+Plan: 8 to add, 1 to change, 1 to destroy.
+
+Changes to Outputs:
+  + web_app_name            = "app-utvt-lab3-api-q19o2o"
+  + web_app_url             = (known after apply)
+
+─────────────────────────────────────────────────────────────────────────────
+
+Saved the plan to: tfplan
+
+To perform exactly these actions, run the following command to apply:
+    terraform apply "tfplan"

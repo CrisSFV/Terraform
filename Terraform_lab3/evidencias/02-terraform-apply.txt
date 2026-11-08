@@ -1,0 +1,179 @@
+﻿random_password.postgres_admin: Creating...
+random_password.vm_admin: Creating...
+random_string.suffix: Creating...
+random_string.suffix: Creation complete after 0s [id=q19o2o]
+random_password.postgres_admin: Creation complete after 0s [id=none]
+random_password.vm_admin: Creation complete after 0s [id=none]
+azurerm_resource_group.lab: Creating...
+azurerm_resource_group.lab: Still creating... [00m10s elapsed]
+azurerm_resource_group.lab: Still creating... [00m20s elapsed]
+azurerm_resource_group.lab: Creation complete after 23s [id=/subscriptions/8f447e01-3ab5-41d1-86cc-22f221fdde81/resourceGroups/rg-utvt-lab3-dev-ncus-001]
+azurerm_private_dns_zone.postgres: Creating...
+azurerm_key_vault.lab: Creating...
+azurerm_virtual_network.lab: Creating...
+azurerm_service_plan.lab: Creating...
+azurerm_log_analytics_workspace.lab: Creating...
+azurerm_network_security_group.vm: Creating...
+azurerm_network_security_group.vm: Creation complete after 3s [id=/subscriptions/8f447e01-3ab5-41d1-86cc-22f221fdde81/resourceGroups/rg-utvt-lab3-dev-ncus-001/providers/Microsoft.Network/networkSecurityGroups/nsg-utvt-lab3-vm-dev-ncus-001]
+azurerm_virtual_network.lab: Creation complete after 5s [id=/subscriptions/8f447e01-3ab5-41d1-86cc-22f221fdde81/resourceGroups/rg-utvt-lab3-dev-ncus-001/providers/Microsoft.Network/virtualNetworks/vnet-utvt-lab3-dev-ncus-001]
+azurerm_subnet.vm: Creating...
+azurerm_bastion_host.lab: Creating...
+azurerm_subnet.app: Creating...
+azurerm_subnet.db: Creating...
+azurerm_private_dns_zone.postgres: Still creating... [00m10s elapsed]
+azurerm_key_vault.lab: Still creating... [00m10s elapsed]
+azurerm_log_analytics_workspace.lab: Still creating... [00m10s elapsed]
+azurerm_subnet.db: Creation complete after 5s [id=/subscriptions/8f447e01-3ab5-41d1-86cc-22f221fdde81/resourceGroups/rg-utvt-lab3-dev-ncus-001/providers/Microsoft.Network/virtualNetworks/vnet-utvt-lab3-dev-ncus-001/subnets/snet-utvt-lab3-db-dev-ncus-001]
+azurerm_bastion_host.lab: Still creating... [00m10s elapsed]
+azurerm_subnet.vm: Still creating... [00m10s elapsed]
+azurerm_subnet.app: Still creating... [00m10s elapsed]
+azurerm_subnet.app: Creation complete after 11s [id=/subscriptions/8f447e01-3ab5-41d1-86cc-22f221fdde81/resourceGroups/rg-utvt-lab3-dev-ncus-001/providers/Microsoft.Network/virtualNetworks/vnet-utvt-lab3-dev-ncus-001/subnets/snet-utvt-lab3-app-dev-ncus-001]
+azurerm_bastion_host.lab: Creation complete after 12s [id=/subscriptions/8f447e01-3ab5-41d1-86cc-22f221fdde81/resourceGroups/rg-utvt-lab3-dev-ncus-001/providers/Microsoft.Network/bastionHosts/bas-utvt-lab3-dev-ncus-001]
+azurerm_key_vault.lab: Still creating... [00m20s elapsed]
+azurerm_private_dns_zone.postgres: Still creating... [00m20s elapsed]
+azurerm_log_analytics_workspace.lab: Still creating... [00m20s elapsed]
+azurerm_subnet.vm: Creation complete after 16s [id=/subscriptions/8f447e01-3ab5-41d1-86cc-22f221fdde81/resourceGroups/rg-utvt-lab3-dev-ncus-001/providers/Microsoft.Network/virtualNetworks/vnet-utvt-lab3-dev-ncus-001/subnets/snet-utvt-lab3-vm-dev-ncus-001]
+azurerm_subnet_network_security_group_association.vm: Creating...
+azurerm_network_interface.vm: Creating...
+azurerm_subnet_network_security_group_association.vm: Creation complete after 5s [id=/subscriptions/8f447e01-3ab5-41d1-86cc-22f221fdde81/resourceGroups/rg-utvt-lab3-dev-ncus-001/providers/Microsoft.Network/virtualNetworks/vnet-utvt-lab3-dev-ncus-001/subnets/snet-utvt-lab3-vm-dev-ncus-001]
+azurerm_key_vault.lab: Still creating... [00m30s elapsed]
+azurerm_private_dns_zone.postgres: Still creating... [00m30s elapsed]
+azurerm_log_analytics_workspace.lab: Still creating... [00m30s elapsed]
+azurerm_network_interface.vm: Still creating... [00m10s elapsed]
+azurerm_private_dns_zone.postgres: Creation complete after 33s [id=/subscriptions/8f447e01-3ab5-41d1-86cc-22f221fdde81/resourceGroups/rg-utvt-lab3-dev-ncus-001/providers/Microsoft.Network/privateDnsZones/lab3.private.postgres.database.azure.com]
+azurerm_private_dns_zone_virtual_network_link.postgres: Creating...
+azurerm_network_interface.vm: Creation complete after 16s [id=/subscriptions/8f447e01-3ab5-41d1-86cc-22f221fdde81/resourceGroups/rg-utvt-lab3-dev-ncus-001/providers/Microsoft.Network/networkInterfaces/nic-utvt-lab3-vm-dev-ncus-001]
+azurerm_windows_virtual_machine.vm: Creating...
+azurerm_key_vault.lab: Still creating... [00m40s elapsed]
+azurerm_log_analytics_workspace.lab: Still creating... [00m40s elapsed]
+azurerm_private_dns_zone_virtual_network_link.postgres: Still creating... [00m10s elapsed]
+azurerm_log_analytics_workspace.lab: Creation complete after 45s [id=/subscriptions/8f447e01-3ab5-41d1-86cc-22f221fdde81/resourceGroups/rg-utvt-lab3-dev-ncus-001/providers/Microsoft.OperationalInsights/workspaces/log-utvt-lab3-dev-ncus-001]
+azurerm_application_insights.lab: Creating...
+azurerm_windows_virtual_machine.vm: Still creating... [00m10s elapsed]
+azurerm_application_insights.lab: Creation complete after 3s [id=/subscriptions/8f447e01-3ab5-41d1-86cc-22f221fdde81/resourceGroups/rg-utvt-lab3-dev-ncus-001/providers/Microsoft.Insights/components/appi-utvt-lab3-dev-ncus-001]
+azurerm_key_vault.lab: Still creating... [00m50s elapsed]
+azurerm_private_dns_zone_virtual_network_link.postgres: Still creating... [00m20s elapsed]
+azurerm_windows_virtual_machine.vm: Still creating... [00m20s elapsed]
+azurerm_key_vault.lab: Still creating... [01m00s elapsed]
+azurerm_private_dns_zone_virtual_network_link.postgres: Still creating... [00m30s elapsed]
+azurerm_private_dns_zone_virtual_network_link.postgres: Creation complete after 33s [id=/subscriptions/8f447e01-3ab5-41d1-86cc-22f221fdde81/resourceGroups/rg-utvt-lab3-dev-ncus-001/providers/Microsoft.Network/privateDnsZones/lab3.private.postgres.database.azure.com/virtualNetworkLinks/postgres-vnet-link]
+azurerm_postgresql_flexible_server.lab: Creating...
+azurerm_windows_virtual_machine.vm: Still creating... [00m30s elapsed]
+azurerm_key_vault.lab: Still creating... [01m10s elapsed]
+azurerm_postgresql_flexible_server.lab: Still creating... [00m10s elapsed]
+azurerm_windows_virtual_machine.vm: Still creating... [00m40s elapsed]
+azurerm_key_vault.lab: Still creating... [01m20s elapsed]
+azurerm_postgresql_flexible_server.lab: Still creating... [00m20s elapsed]
+azurerm_windows_virtual_machine.vm: Still creating... [00m50s elapsed]
+azurerm_key_vault.lab: Still creating... [01m30s elapsed]
+azurerm_postgresql_flexible_server.lab: Still creating... [00m30s elapsed]
+azurerm_windows_virtual_machine.vm: Still creating... [01m00s elapsed]
+azurerm_key_vault.lab: Still creating... [01m40s elapsed]
+azurerm_windows_virtual_machine.vm: Creation complete after 1m6s [id=/subscriptions/8f447e01-3ab5-41d1-86cc-22f221fdde81/resourceGroups/rg-utvt-lab3-dev-ncus-001/providers/Microsoft.Compute/virtualMachines/vm-utvt-lab3-dev-ncus-001]
+azurerm_dev_test_global_vm_shutdown_schedule.vm: Creating...
+azurerm_dev_test_global_vm_shutdown_schedule.vm: Creation complete after 1s [id=/subscriptions/8f447e01-3ab5-41d1-86cc-22f221fdde81/resourceGroups/rg-utvt-lab3-dev-ncus-001/providers/Microsoft.DevTestLab/schedules/shutdown-computevm-vm-utvt-lab3-dev-ncus-001]
+azurerm_postgresql_flexible_server.lab: Still creating... [00m40s elapsed]
+azurerm_key_vault.lab: Still creating... [01m50s elapsed]
+azurerm_postgresql_flexible_server.lab: Still creating... [00m50s elapsed]
+azurerm_key_vault.lab: Still creating... [02m00s elapsed]
+azurerm_postgresql_flexible_server.lab: Still creating... [01m00s elapsed]
+azurerm_key_vault.lab: Still creating... [02m10s elapsed]
+azurerm_postgresql_flexible_server.lab: Still creating... [01m10s elapsed]
+azurerm_key_vault.lab: Still creating... [02m20s elapsed]
+azurerm_postgresql_flexible_server.lab: Still creating... [01m20s elapsed]
+azurerm_key_vault.lab: Still creating... [02m30s elapsed]
+azurerm_key_vault.lab: Creation complete after 2m32s [id=/subscriptions/8f447e01-3ab5-41d1-86cc-22f221fdde81/resourceGroups/rg-utvt-lab3-dev-ncus-001/providers/Microsoft.KeyVault/vaults/kv-utvt-lab3-q19o2o]
+azurerm_role_assignment.key_vault_admin: Creating...
+azurerm_postgresql_flexible_server.lab: Still creating... [01m30s elapsed]
+azurerm_role_assignment.key_vault_admin: Still creating... [00m10s elapsed]
+azurerm_postgresql_flexible_server.lab: Still creating... [01m40s elapsed]
+azurerm_role_assignment.key_vault_admin: Still creating... [00m20s elapsed]
+azurerm_postgresql_flexible_server.lab: Still creating... [01m50s elapsed]
+azurerm_role_assignment.key_vault_admin: Creation complete after 27s [id=/subscriptions/8f447e01-3ab5-41d1-86cc-22f221fdde81/resourceGroups/rg-utvt-lab3-dev-ncus-001/providers/Microsoft.KeyVault/vaults/kv-utvt-lab3-q19o2o/providers/Microsoft.Authorization/roleAssignments/528b6e80-ec85-1651-cbb7-f40448a51fdd]
+time_sleep.rbac_propagation: Creating...
+azurerm_postgresql_flexible_server.lab: Still creating... [02m00s elapsed]
+time_sleep.rbac_propagation: Still creating... [00m10s elapsed]
+azurerm_postgresql_flexible_server.lab: Still creating... [02m10s elapsed]
+time_sleep.rbac_propagation: Still creating... [00m20s elapsed]
+azurerm_postgresql_flexible_server.lab: Still creating... [02m20s elapsed]
+time_sleep.rbac_propagation: Still creating... [00m30s elapsed]
+azurerm_postgresql_flexible_server.lab: Still creating... [02m30s elapsed]
+time_sleep.rbac_propagation: Still creating... [00m40s elapsed]
+azurerm_postgresql_flexible_server.lab: Still creating... [02m40s elapsed]
+time_sleep.rbac_propagation: Still creating... [00m50s elapsed]
+azurerm_postgresql_flexible_server.lab: Still creating... [02m50s elapsed]
+time_sleep.rbac_propagation: Still creating... [01m00s elapsed]
+azurerm_postgresql_flexible_server.lab: Still creating... [03m00s elapsed]
+time_sleep.rbac_propagation: Still creating... [01m10s elapsed]
+azurerm_postgresql_flexible_server.lab: Still creating... [03m10s elapsed]
+time_sleep.rbac_propagation: Still creating... [01m20s elapsed]
+azurerm_postgresql_flexible_server.lab: Still creating... [03m20s elapsed]
+time_sleep.rbac_propagation: Still creating... [01m30s elapsed]
+azurerm_postgresql_flexible_server.lab: Still creating... [03m30s elapsed]
+time_sleep.rbac_propagation: Still creating... [01m40s elapsed]
+azurerm_postgresql_flexible_server.lab: Still creating... [03m40s elapsed]
+time_sleep.rbac_propagation: Still creating... [01m50s elapsed]
+azurerm_postgresql_flexible_server.lab: Still creating... [03m50s elapsed]
+time_sleep.rbac_propagation: Still creating... [02m00s elapsed]
+time_sleep.rbac_propagation: Creation complete after 2m0s [id=2026-11-08T20:55:05Z]
+azurerm_key_vault_secret.postgres_password: Creating...
+azurerm_key_vault_secret.postgres_password: Creation complete after 2s [id=https://kv-utvt-lab3-q19o2o.vault.azure.net/secrets/postgres-password/bf356adb5c3b4d01986937845d986b57]
+azurerm_postgresql_flexible_server.lab: Still creating... [04m00s elapsed]
+azurerm_postgresql_flexible_server.lab: Still creating... [04m10s elapsed]
+azurerm_postgresql_flexible_server.lab: Still creating... [04m20s elapsed]
+azurerm_postgresql_flexible_server.lab: Still creating... [04m30s elapsed]
+azurerm_postgresql_flexible_server.lab: Still creating... [04m40s elapsed]
+azurerm_postgresql_flexible_server.lab: Still creating... [04m50s elapsed]
+azurerm_postgresql_flexible_server.lab: Still creating... [05m00s elapsed]
+azurerm_postgresql_flexible_server.lab: Creation complete after 5m5s [id=/subscriptions/8f447e01-3ab5-41d1-86cc-22f221fdde81/resourceGroups/rg-utvt-lab3-dev-ncus-001/providers/Microsoft.DBforPostgreSQL/flexibleServers/psql-utvt-lab3-dev-q19o2o]
+azurerm_postgresql_flexible_server_database.school_management: Creating...
+azurerm_postgresql_flexible_server_database.school_management: Still creating... [00m10s elapsed]
+azurerm_postgresql_flexible_server_database.school_management: Creation complete after 12s [id=/subscriptions/8f447e01-3ab5-41d1-86cc-22f221fdde81/resourceGroups/rg-utvt-lab3-dev-ncus-001/providers/Microsoft.DBforPostgreSQL/flexibleServers/psql-utvt-lab3-dev-q19o2o/databases/school_management]
+System.Management.Automation.RemoteException
+Error: creating App Service Plan (Subscription: "8f447e01-3ab5-41d1-86cc-22f221fdde81"
+Resource Group Name: "rg-utvt-lab3-dev-ncus-001"
+Server Farm Name: "asp-utvt-lab3-dev-ncus-001"): performing CreateOrUpdate: unexpected status 401 (401 Unauthorized) with response: {"Code":"Unauthorized","Message":"Operation cannot be completed without additional quota. \r\nAdditional details - Location:  \r\nCurrent Limit (B1 VMs): 0 \r\nCurrent Usage: 0\r\nAmount required for this deployment (B1 VMs): 1 \r\n(Minimum) New Limit that you should request to enable this deployment: 1. \r\nNote that if you experience multiple scaling operations failing (in addition to this one) and need to accommodate the aggregate quota requirements of these operations, you will need to request a higher quota limit than the one currently displayed.","Target":null,"Details":[{"Message":"Operation cannot be completed without additional quota. \r\nAdditional details - Location:  \r\nCurrent Limit (B1 VMs): 0 \r\nCurrent Usage: 0\r\nAmount required for this deployment (B1 VMs): 1 \r\n(Minimum) New Limit that you should request to enable this deployment: 1. \r\nNote that if you experience multiple scaling operations failing (in addition to this one) and need to accommodate the aggregate quota requirements of these operations, you will need to request a higher quota limit than the one currently displayed."},{"Code":"Unauthorized"},{"ErrorEntity":{"ExtendedCode":"70007","MessageTemplate":"Operation cannot be completed without additional quota. \r\nAdditional details - Location: {0} \r\nCurrent Limit ({1}): {2} \r\nCurrent Usage: {3}\r\nAmount required for this deployment ({1}): {4} \r\n(Minimum) New Limit that you should request to enable this deployment: {5}. \r\nNote that if you experience multiple scaling operations failing (in addition to this one) and need to accommodate the aggregate quota requirements of these operations, you will need to request a higher quota limit than the one currently displayed.","Parameters":["","B1 VMs","0","0","1","1"],"Code":"Unauthorized","Message":"Operation cannot be completed without additional quota. \r\nAdditional details - Location:  \r\nCurrent Limit (B1 VMs): 0 \r\nCurrent Usage: 0\r\nAmount required for this deployment (B1 VMs): 1 \r\n(Minimum) New Limit that you should request to enable this deployment: 1. \r\nNote that if you experience multiple scaling operations failing (in addition to this one) and need to accommodate the aggregate quota requirements of these operations, you will need to request a higher quota limit than the one currently displayed."}}],"Innererror":null}
+System.Management.Automation.RemoteException
+  with azurerm_service_plan.lab,
+  on main.tf line 260, in resource "azurerm_service_plan" "lab":
+ 260: resource "azurerm_service_plan" "lab" {
+System.Management.Automation.RemoteException
+creating App Service Plan (Subscription:
+"8f447e01-3ab5-41d1-86cc-22f221fdde81"
+Resource Group Name: "rg-utvt-lab3-dev-ncus-001"
+Server Farm Name: "asp-utvt-lab3-dev-ncus-001"): performing CreateOrUpdate:
+unexpected status 401 (401 Unauthorized) with response:
+{"Code":"Unauthorized","Message":"Operation cannot be completed without
+additional quota. \r\nAdditional details - Location:  \r\nCurrent Limit (B1
+VMs): 0 \r\nCurrent Usage: 0\r\nAmount required for this deployment (B1 VMs):
+1 \r\n(Minimum) New Limit that you should request to enable this deployment:
+1. \r\nNote that if you experience multiple scaling operations failing (in
+addition to this one) and need to accommodate the aggregate quota
+requirements of these operations, you will need to request a higher quota
+limit than the one currently
+displayed.","Target":null,"Details":[{"Message":"Operation cannot be
+completed without additional quota. \r\nAdditional details - Location:
+\r\nCurrent Limit (B1 VMs): 0 \r\nCurrent Usage: 0\r\nAmount required for
+this deployment (B1 VMs): 1 \r\n(Minimum) New Limit that you should request
+to enable this deployment: 1. \r\nNote that if you experience multiple
+scaling operations failing (in addition to this one) and need to accommodate
+the aggregate quota requirements of these operations, you will need to
+request a higher quota limit than the one currently
+displayed."},{"Code":"Unauthorized"},{"ErrorEntity":{"ExtendedCode":"70007","MessageTemplate":"Operation
+cannot be completed without additional quota. \r\nAdditional details -
+Location: {0} \r\nCurrent Limit ({1}): {2} \r\nCurrent Usage: {3}\r\nAmount
+required for this deployment ({1}): {4} \r\n(Minimum) New Limit that you
+should request to enable this deployment: {5}. \r\nNote that if you
+experience multiple scaling operations failing (in addition to this one) and
+need to accommodate the aggregate quota requirements of these operations, you
+will need to request a higher quota limit than the one currently
+displayed.","Parameters":["","B1
+VMs","0","0","1","1"],"Code":"Unauthorized","Message":"Operation cannot be
+completed without additional quota. \r\nAdditional details - Location:
+\r\nCurrent Limit (B1 VMs): 0 \r\nCurrent Usage: 0\r\nAmount required for
+this deployment (B1 VMs): 1 \r\n(Minimum) New Limit that you should request
+to enable this deployment: 1. \r\nNote that if you experience multiple
+scaling operations failing (in addition to this one) and need to accommodate
+the aggregate quota requirements of these operations, you will need to
+request a higher quota limit than the one currently
+displayed."}}],"Innererror":null}

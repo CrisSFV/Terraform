@@ -42,11 +42,33 @@ resource "azurerm_virtual_network" "lab" {
   tags                = var.tags
 }
 
+resource "azurerm_virtual_network" "app" {
+  name                = "vnet-utvt-lab3-app-dev-mxc-001"
+  location            = var.app_location
+  resource_group_name = azurerm_resource_group.lab.name
+  address_space       = ["10.30.0.0/16"]
+  tags                = var.tags
+}
+
+resource "azurerm_virtual_network_peering" "lab_to_app" {
+  name                      = "peer-lab-to-app"
+  resource_group_name       = azurerm_resource_group.lab.name
+  virtual_network_name      = azurerm_virtual_network.lab.name
+  remote_virtual_network_id = azurerm_virtual_network.app.id
+}
+
+resource "azurerm_virtual_network_peering" "app_to_lab" {
+  name                      = "peer-app-to-lab"
+  resource_group_name       = azurerm_resource_group.lab.name
+  virtual_network_name      = azurerm_virtual_network.app.name
+  remote_virtual_network_id = azurerm_virtual_network.lab.id
+}
+
 resource "azurerm_subnet" "app" {
-  name                 = "snet-utvt-lab3-app-dev-ncus-001"
+  name                 = "snet-utvt-lab3-app-dev-mxc-001"
   resource_group_name  = azurerm_resource_group.lab.name
-  virtual_network_name = azurerm_virtual_network.lab.name
-  address_prefixes     = ["10.20.1.0/24"]
+  virtual_network_name = azurerm_virtual_network.app.name
+  address_prefixes     = ["10.30.1.0/24"]
 
   delegation {
     name = "app-service-delegation"
@@ -181,6 +203,15 @@ resource "azurerm_private_dns_zone_virtual_network_link" "postgres" {
   tags                  = var.tags
 }
 
+resource "azurerm_private_dns_zone_virtual_network_link" "postgres_app" {
+  name                  = "postgres-app-vnet-link"
+  resource_group_name   = azurerm_resource_group.lab.name
+  private_dns_zone_name = azurerm_private_dns_zone.postgres.name
+  virtual_network_id    = azurerm_virtual_network.app.id
+  registration_enabled  = false
+  tags                  = var.tags
+}
+
 resource "azurerm_postgresql_flexible_server" "lab" {
   name                          = "psql-utvt-lab3-dev-${random_string.suffix.result}"
   location                      = azurerm_resource_group.lab.location
@@ -258,8 +289,8 @@ resource "azurerm_application_insights" "lab" {
 }
 
 resource "azurerm_service_plan" "lab" {
-  name                = "asp-utvt-lab3-dev-ncus-001"
-  location            = azurerm_resource_group.lab.location
+  name                = "asp-utvt-lab3-dev-mxc-001"
+  location            = var.app_location
   resource_group_name = azurerm_resource_group.lab.name
   os_type             = "Linux"
   sku_name            = "B1"
@@ -274,6 +305,12 @@ resource "azurerm_linux_web_app" "api" {
   https_only                = true
   virtual_network_subnet_id = azurerm_subnet.app.id
   tags                      = var.tags
+
+  depends_on = [
+    azurerm_virtual_network_peering.lab_to_app,
+    azurerm_virtual_network_peering.app_to_lab,
+    azurerm_private_dns_zone_virtual_network_link.postgres_app,
+  ]
 
   identity {
     type = "SystemAssigned"

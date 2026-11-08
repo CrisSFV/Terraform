@@ -10,6 +10,12 @@ variable "location" {
   default     = "northcentralus"
 }
 
+variable "app_location" {
+  description = "Región del App Service; la suscripción no tiene cupo B1 en northcentralus."
+  type        = string
+  default     = "mexicocentral"
+}
+
 variable "vm_size" {
   description = "Tamaño de la VM incluido en los servicios gratuitos."
   type        = string
