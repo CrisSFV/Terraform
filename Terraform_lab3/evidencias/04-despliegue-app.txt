@@ -1,0 +1,33 @@
+﻿WARNING: Initiating deployment
+WARNING: Deploying from local path: C:\Users\crist\AppData\Local\Temp\claude\c--Users-crist-OneDrive-Escritorio-Terraform\6d08afa6-5856-4c14-9743-a43df87147f7\scratchpad\api-repo\repo\target\school-management-0.0.1-SNAPSHOT.jar
+WARNING: Warming up Kudu before deployment.
+WARNING: Warmed up Kudu instance successfully.
+WARNING: Deployment has completed successfully
+WARNING: Tip: run 'az webapp troubleshoot status --name app-utvt-lab3-api-q19o2o --resource-group rg-utvt-lab3-dev-ncus-001' to see per-instance runtime status and recent startup summary.
+WARNING: You can visit your app at: http://app-utvt-lab3-api-q19o2o.azurewebsites.net
+{
+  "active": true,
+  "author": "N/A",
+  "author_email": "N/A",
+  "build_summary": {
+    "errors": [],
+    "warnings": []
+  },
+  "complete": true,
+  "deployer": "OneDeploy",
+  "deployment_tag": "",
+  "end_time": "2026-11-08T21:03:43.5316147Z",
+  "id": "88521e2b-d0d8-4f10-9f29-a2562fdb7174",
+  "is_readonly": true,
+  "is_temp": false,
+  "last_success_end_time": "2026-11-08T21:03:43.5316147Z",
+  "log_url": "https://app-utvt-lab3-api-q19o2o.scm.azurewebsites.net/api/deployments/88521e2b-d0d8-4f10-9f29-a2562fdb7174/log",
+  "message": "OneDeploy",
+  "progress": "",
+  "received_time": "2026-11-08T21:03:35.7031789Z",
+  "site_name": "app-utvt-lab3-api-q19o2o",
+  "start_time": "2026-11-08T21:03:36.9574519Z",
+  "status": 4,
+  "status_text": "",
+  "url": "https://app-utvt-lab3-api-q19o2o.scm.azurewebsites.net/api/deployments/88521e2b-d0d8-4f10-9f29-a2562fdb7174"
+}

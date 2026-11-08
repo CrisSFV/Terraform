@@ -1,0 +1,15 @@
+﻿GET /api/v1/students?size=5 -> HTTP 200
+{"content":[],"page":0,"size":5,"totalElements":0,"totalPages":0}
+
+POST /api/v1/students -> HTTP 201
+{"id":1,"studentNumber":"LAB3-0001","firstName":"Alumno","paternalSurname":"Prueba","maternalSurname":"Laboratorio","email":"alumno.prueba@example.com","dateOfBirth":"2004-05-20","active":true}
+
+GET /api/v1/students/1 -> HTTP 200
+{"id":1,"studentNumber":"LAB3-0001","firstName":"Alumno","paternalSurname":"Prueba","maternalSurname":"Laboratorio","email":"alumno.prueba@example.com","dateOfBirth":"2004-05-20","active":true}
+
+GET /api/v1/students?size=5 -> HTTP 200
+{"content":[{"id":1,"studentNumber":"LAB3-0001","firstName":"Alumno","paternalSurname":"Prueba","maternalSurname":"Laboratorio","email":"alumno.prueba@example.com","dateOfBirth":"2004-05-20","active":true}],"page":0,"size":5,"totalElements":1,"totalPages":1}
+
+POST /api/v1/students -> HTTP 400
+{"detail":"Invalid request content.","instance":"/api/v1/students","status":400,"title":"Bad Request"}
+

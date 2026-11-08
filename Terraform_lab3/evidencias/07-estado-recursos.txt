@@ -1,0 +1,78 @@
+﻿== Recursos del grupo
+Tipo                                                   Nombre                                                           Region
+-----------------------------------------------------  ---------------------------------------------------------------  --------------
+Microsoft.Network/networkSecurityGroups                nsg-utvt-lab3-vm-dev-ncus-001                                    northcentralus
+Microsoft.Network/virtualNetworks                      vnet-utvt-lab3-dev-ncus-001                                      northcentralus
+Microsoft.Network/privateDnsZones                      lab3.private.postgres.database.azure.com                         global
+Microsoft.KeyVault/vaults                              kv-utvt-lab3-q19o2o                                              northcentralus
+Microsoft.OperationalInsights/workspaces               log-utvt-lab3-dev-ncus-001                                       northcentralus
+Microsoft.Network/bastionHosts                         bas-utvt-lab3-dev-ncus-001                                       northcentralus
+Microsoft.Network/networkInterfaces                    nic-utvt-lab3-vm-dev-ncus-001                                    northcentralus
+Microsoft.Network/privateDnsZones/virtualNetworkLinks  lab3.private.postgres.database.azure.com/postgres-vnet-link      global
+Microsoft.Compute/virtualMachines                      vm-utvt-lab3-dev-ncus-001                                        northcentralus
+Microsoft.Compute/disks                                osdisk-utvt-lab3-vm-dev-ncus-001                                 northcentralus
+Microsoft.Insights/components                          appi-utvt-lab3-dev-ncus-001                                      northcentralus
+Microsoft.DBforPostgreSQL/flexibleServers              psql-utvt-lab3-dev-q19o2o                                        northcentralus
+Microsoft.DevTestLab/schedules                         shutdown-computevm-vm-utvt-lab3-dev-ncus-001                     northcentralus
+Microsoft.Web/serverFarms                              asp-utvt-lab3-dev-mxc-001                                        mexicocentral
+Microsoft.Network/virtualNetworks                      vnet-utvt-lab3-app-dev-mxc-001                                   mexicocentral
+Microsoft.Network/privateDnsZones/virtualNetworkLinks  lab3.private.postgres.database.azure.com/postgres-app-vnet-link  global
+Microsoft.Web/sites                                    app-utvt-lab3-api-q19o2o                                         mexicocentral
+microsoft.insights/actiongroups                        Application Insights Smart Detection                             global
+
+== Roles sobre Key Vault
+Rol                      Tipo
+-----------------------  ----------------
+Key Vault Administrator  User
+Key Vault Secrets User   ServicePrincipal
+
+== Secretos (solo metadatos)
+Nombre             Habilitado
+-----------------  ------------
+postgres-password  True
+
+== Referencia DB_PASSWORD
+Estado    Secreto            Detalle
+--------  -----------------  -----------------------------------------
+Resolved  postgres-password  Reference has been successfully resolved.
+
+== Variables del App Service (solo nombres)
+APPLICATIONINSIGHTS_CONNECTION_STRING
+ApplicationInsightsAgent_EXTENSION_VERSION
+DB_HOST
+DB_NAME
+DB_PASSWORD
+DB_PORT
+DB_USERNAME
+PORT
+SPRING_PROFILES_ACTIVE
+XDT_MicrosoftApplicationInsights_Mode
+
+== App Service
+Estado    Region          HttpsOnly
+--------  --------------  -----------
+Running   Mexico Central  True
+Java            AlwaysOn    RutaVNet
+--------------  ----------  ----------
+JAVA|25-java25  True        True
+
+== PostgreSQL
+Estado    Version    Sku            AccesoPublico
+--------  ---------  -------------  ---------------
+Ready     17         Standard_B1ms  Disabled
+BaseDeDatos        Charset
+-----------------  ---------
+school_management  UTF8
+
+== VM y Bastion
+VM                         Tamano             Estado      IPPublica    IPPrivada
+-------------------------  -----------------  ----------  -----------  -----------
+vm-utvt-lab3-dev-ncus-001  Standard_B2ats_v2  VM running               10.20.3.4
+Bastion                     Sku        Estado
+--------------------------  ---------  ---------
+bas-utvt-lab3-dev-ncus-001  Developer  Succeeded
+
+== Peering
+Peering          Estado
+---------------  ---------
+peer-lab-to-app  Connected

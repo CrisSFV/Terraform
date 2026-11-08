@@ -1,0 +1,7 @@
+﻿2026-11-08T21:05:25.487Z  INFO 93 --- [school-management] [main] m.e.u.s.SchoolManagementApplication      : The following 1 profile is active: "azure"
+2026-11-08T21:06:04.044Z  INFO 93 --- [school-management] [main] org.flywaydb.core.FlywayExecutor         : Database: jdbc:postgresql://psql-utvt-lab3-dev-q19o2o.postgres.database.azure.com:5432/school_management?sslmode=verify-full&sslfact
+2026-11-08T21:06:05.846Z  INFO 93 --- [school-management] [main] o.f.core.internal.command.DbValidate     : Successfully validated 1 migration (execution time 00:00.443s)
+2026-11-08T21:06:08.011Z  INFO 93 --- [school-management] [main] o.f.core.internal.command.DbMigrate      : Migrating schema "public" to version "1 - create students table"
+2026-11-08T21:06:09.098Z  INFO 93 --- [school-management] [main] o.f.core.internal.command.DbMigrate      : Successfully applied 1 migration to schema "public", now at version v1 (execution time 00:00.327s)
+2026-11-08T21:06:35.575Z  INFO 93 --- [school-management] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-11-08T21:06:35.664Z  INFO 93 --- [school-management] [main] m.e.u.s.SchoolManagementApplication      : Started SchoolManagementApplication in 76.888 seconds (process running for 109.777)
